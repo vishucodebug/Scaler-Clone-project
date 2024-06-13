@@ -4,10 +4,13 @@
   
     
 }
+.webpage {
+    width: 1400px;
+}
  /* navbar section */
 #navbar{
     height: 4.5rem;
-    width: 100%;
+    width: 1400px;
     background-color: rgba(0, 76, 240 ,0.9);
     display: flex;
     flex-direction: row;
@@ -93,7 +96,9 @@
 #main{
     height: 40rem;
     width: 100%;
-    background-color: rgb(66, 123, 237);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(21,82,158,1) 47%, rgba(0,212,255,1) 100%);
+    /* background-color: rgb(66, 123, 237); */
     display:flex;
     flex-wrap: nowrap;
    
@@ -121,9 +126,9 @@
 
 /* form section */
 .form{
-    margin: 50px;
+    margin: 90px;
     padding: 40px;
-    height:89%;
+    height:83%;
     width: 40%;
     background-color: whitesmoke;
     border-radius: 10px;
@@ -269,7 +274,9 @@ button:hover{
 
 }
 .char{
-    background-image: url(char.gz);
+    /* background-color: red; */
+    background-image: url(./image/anshuman_logo.png);
+    width: 100%;
 }
 .master{
     align-self: center;
@@ -277,8 +284,8 @@ button:hover{
    
 }
 .bg{
-    /* background-image: url(bgmaster.gz);
-    background-size: cover; */
+    background-image: url(bgmaster.gz);
+    background-size: cover;
 }
 #mstr{
     padding: 5px;
