@@ -339,7 +339,7 @@ button:hover{
     box-shadow: rgba(19,46,112,0.1) 0 1rem 4rem 0;
     background-color: white;
     border-radius: 10px;
-   transition:0.8s ;
+    transition:0.8s ;
    
 }
 .bachelor:hover{
